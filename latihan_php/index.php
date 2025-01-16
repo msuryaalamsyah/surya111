@@ -8,13 +8,13 @@
 <body>
    <?php
    
-    define('gaji',5000000);
-    define('bonus',500000);
-    define('pajak',0.12)
+    define('gaji', 5000000);
+    define('bonus', 500000);
+    define('pajak', 0.12)
     $proyek = 2;
 
     //menghitung bonus
-    $proyek *= bonus; // = $proyek = $proyek = $bonus
+    $proyek *= bonus; // = $proyek = $proyek * $bonus
 
     //menghitung gaji+bonus
     $total_gaji = gaji + $proyek;
