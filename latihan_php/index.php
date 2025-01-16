@@ -13,12 +13,15 @@
     define('pajak',0.12)
     $proyek = 2;
 
-    //menghitung gaji+bonus
+    //menghitung bonus
     $proyek *= bonus; // = $proyek = $proyek = $bonus
 
-    //menghitung total pajak
-    $total_pajak = gaji + $proyek;
+    //menghitung gaji+bonus
+    $total_gaji = gaji + $proyek;
 
+    //menghitung total pajak 
+    $total_pajak = $total_gaji * pajak;
+    
     //gaji bersih
     $gaji_bersih = $total_gaji - $total_pajakk;
 
