@@ -23,7 +23,7 @@
     $total_pajak = $total_gaji * pajak;
     
     //gaji bersih
-    $gaji_bersih = $total_gaji - $total_pajakk;
+    $gaji_bersih = $total_gaji - $total_pajak;
 
 
 
