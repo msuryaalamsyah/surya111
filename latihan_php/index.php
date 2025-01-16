@@ -10,7 +10,7 @@
    
     define('gaji', 5000000);
     define('bonus', 500000);
-    define('pajak', 0.12)
+    define('pajak', 0.12);
     $proyek = 2;
 
     //menghitung bonus
